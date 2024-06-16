@@ -1,0 +1,46 @@
+#home {
+  position: relative;
+ 
+
+  
+}
+
+
+#body{
+  position: absolute; /* כדי להגדיר את מיקומה של קומפוננטה זו */
+  top: 68%; /* למרכז גבוה */
+  left: 42%; /* למרכז שמאל */
+  transform: translate(-50%, -50%); /* להזיז אותה אחורה בדיוק לאמצע */
+  z-index: 0; 
+ width: 21%;
+ height: 12.5%;
+}
+  .rotating-icon-container {
+    position: relative;
+  }
+  
+  .rotating-icon {
+    position: absolute;
+    top: 62.5%;
+    left: 28%;
+    transform: translate(-50%, -50%); /* הזזה כדי להיות במרכז */
+    z-index: 0; /* רמת השכבה */
+    animation: rotation 10s infinite linear;
+  }
+  .rotating-icon2 {
+    position: absolute;
+    top: 76.4%;
+    left: 58%;
+    transform: translate(-50%, -50%); /* הזזה כדי להיות במרכז */
+    z-index: 0; /* רמת השכבה */
+    animation: rotation 10s infinite linear;
+  }
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+    
