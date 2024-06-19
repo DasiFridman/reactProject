@@ -4,12 +4,16 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Background from './components/User/Background.component'
 import Form from './components/User/Form.component'
+import Navigation from './components/User/Navigation.component'
+import Room from './components/User/Room.component'
 
 function App() {
 
   return (
     <div id='home'>
       <Background />
+      <Navigation />
+      <Room />
       <Form />
     </div>
 

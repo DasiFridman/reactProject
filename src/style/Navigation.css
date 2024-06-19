@@ -1,0 +1,126 @@
+/* Navigation.css */
+.navigation-container {
+    margin-top: 2%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5); /* רקע חצי שקוף כדי להבדיל את הניווט */
+}
+
+.phone-section {
+    left: 100px;
+    top: 9.50px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.phone-wrapper {
+    width: 156px;
+    height: 46px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 51px;
+    overflow: hidden;
+    border: 1.20px white solid;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+    display: flex;
+}
+
+.phone-content {
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    display: flex;
+}
+
+.phone-number {
+    color: white;
+    font-size: 24px;
+    font-family: 'Almoni Tzar ML v5 AAA';
+    font-weight: 400;
+    line-height: 28.84px;
+    word-wrap: break-word;
+}
+
+.phone-icon {
+    width: 30px;
+    height: 31px;
+    position: relative;
+}
+
+.phone-icon-inner {
+    width: 30px;
+    height: 31px;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.phone-icon-detail {
+    width: 15px;
+    height: 23.25px;
+    left: 7.50px;
+    top: 3.87px;
+    position: absolute;
+    border: 1.42px white solid;
+}
+
+.phone-icon-line1 {
+    width: 2.50px;
+    height: 0;
+    left: 13.75px;
+    top: 5.17px;
+    position: absolute;
+    border: 1.42px white solid;
+}
+
+.phone-icon-line2 {
+    width: 0;
+    height: 0.01px;
+    left: 15px;
+    top: 21.96px;
+    position: absolute;
+    border: 1.42px white solid;
+}
+
+.logo-section {
+    width: 242px;
+    left: 1150px;
+    top: 0;
+    position: absolute;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 44px;
+    display: inline-flex;
+}
+
+.logo {
+    width: 172px;
+    height: 65px;
+}
+
+.links-section {
+    left: 400px;
+    top: 21px;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 77px;
+    display: inline-flex;
+}
+
+.link-item {
+    color: white;
+    font-size: 20px;
+    font-family: 'Almoni ML v5 AAA';
+    font-weight: 400;
+    line-height: 24.03px;
+    word-wrap: break-word;
+}
