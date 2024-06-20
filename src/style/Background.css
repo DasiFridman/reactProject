@@ -17,7 +17,16 @@
   position: absolute;
   animation: rotation 10s infinite linear;
 }
+.information-container {
+  position: absolute;
+  top: 260%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3; /* מעל הרקע והאייקונים המסתובבים */
+  width: 200px; /* ניתן לשנות לפי הצורך */
+  height: 729px; /* ניתן לשנות לפי הצורך */
 
+}
 .rotating-icon {
   top: 340.5%;
   left: 28%;
