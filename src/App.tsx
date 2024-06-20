@@ -6,6 +6,7 @@ import Background from './components/User/Background.component'
 import Form from './components/User/Form.component'
 import Navigation from './components/User/Navigation.component'
 import Room from './components/User/Room.component'
+import Home from './components/User/Home.component'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <div id='home'>
       <Background />
       <Navigation />
+      <Home />
       <Room />
       <Form />
     </div>
