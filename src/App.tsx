@@ -8,6 +8,7 @@ import Navigation from './components/User/Navigation.component'
 import Room from './components/User/Room.component'
 import Home from './components/User/Home.component'
 import Information from './components/User/Information.component'
+import Contact from './components/User/Contact.component'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Room />
       <Information />
       <Form />
+      <Contact />
     </div>
 
 

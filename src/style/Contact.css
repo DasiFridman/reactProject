@@ -1,0 +1,114 @@
+.container {
+    padding-left: 280px;
+    padding-right: 300px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 32px;
+  }
+  
+  .inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 27px;
+  }
+  
+  .header-text {
+    width: 406px;
+    height: 119px;
+    text-align: right;
+    color: white;
+    font-size: 70px;
+    font-family: 'BarLev AAA';
+    font-weight: 400;
+    line-height: 153.82px;
+    word-wrap: break-word;
+  }
+  
+  .input-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .input-box {
+    height: 33px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 119px;
+    padding-right: 9px;
+    border: 1px white solid;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 98px;
+  }
+  
+  .input-text {
+    width: 200.09px;
+    height: 26px;
+    border: none;
+    padding: 0;
+    outline: none;
+    text-align: right; /* יישור הטקסט לימין */
+    font-size: 28px; /* עדכן את הגודל לפי הצורך */
+    font-family: 'Almoni Tzar ML v5 AAA';
+    font-weight: 300;
+    color: white;
+    background-color: transparent; /* רקע שקוף */
+   
+   
+  }
+  
+  
+  .input-box.tall {
+    height: 80px;
+    padding-bottom: 123px;
+  }
+  
+  
+  
+  
+  .input-box.tall .input-text {
+    width: 545.87px;
+  }
+  
+  .button-container {
+    width: 200px;
+    padding: 7px 9px;
+    border-radius: 35px;
+    border: 2px white solid;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 14px;
+  }
+  
+  .circle {
+    width: 30.47px;
+    height: 30.47px;
+    border-radius: 9999px;
+    border: 2px white solid;
+  }
+  
+  .arrow {
+    width: 20.36px;
+    height: 0;
+    transform: rotate(-180deg);
+    transform-origin: 0 0;
+    border: 2px white solid;
+  }
+  
+  .button-text {
+    color: white;
+    font-size: 24px;
+    font-family: 'Almoni Tzar ML v5 AAA';
+    font-weight: 400;
+    line-height: 21.77px;
+    word-wrap: break-word;
+  }
+  

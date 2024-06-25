@@ -69,7 +69,15 @@
   width: 300px; /* ניתן לשנות לפי הצורך */
   height: 500px; /* ניתן לשנות לפי הצורך */
 }
+.container{
+  position: absolute;
+  top: 493%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 4; /* מעל הרקע והאייקונים המסתובבים */
 
+
+}
 /* האנימציה של הסיבוב */
 @keyframes rotation {
   from {
