@@ -19,8 +19,7 @@ export const Contact=()=>{
               </div>
 
           <div className="button-container">
-            <div className="circle" />
-            <div className="arrow" />
+            <img src="src/assets/Union.svg" alt="" />
             <div className="button-text">יש!!! מדברים</div>
           </div>
         </div>

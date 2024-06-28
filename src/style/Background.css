@@ -78,6 +78,12 @@
 
 
 }
+.bottom-navigation {
+  position: absolute;
+  top: 542%;
+  transform: translate(-50%, -50%);
+  z-index: 4; /* מעל הרקע והאייקונים המסתובבים */
+}
 /* האנימציה של הסיבוב */
 @keyframes rotation {
   from {

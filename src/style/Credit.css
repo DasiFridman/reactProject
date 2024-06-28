@@ -1,0 +1,23 @@
+.textCredit {
+    color: #24252A;
+    font-size: 25px;
+    font-family: 'Almoni Tzar ML v5 AAA';
+    font-weight: 300;
+    line-height: 25px;
+    word-wrap: break-word;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    padding-top: 8px;
+    padding-bottom: 8px;;
+
+}
+
+.UXUI {
+
+
+}
+
+.construction {
+    padding-right: 30px;
+}

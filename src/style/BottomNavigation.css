@@ -1,0 +1,30 @@
+.bottom-navigation {
+  padding-left: 18%;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 620px;
+    display: inline-flex;
+  }
+  
+  .navigation-items {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 77px;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    font-family: 'Almoni ML v5 AAA';
+    word-wrap: break-word;
+  }
+  
+  .navigation-items > div {
+    word-wrap: break-word;
+  }
+  
+  .imgBottomNavigation {
+    width: 172px;
+    height: 65px;
+  }
+  
