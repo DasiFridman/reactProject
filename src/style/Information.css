@@ -1,111 +1,94 @@
 .information-container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
-    gap: 15px;
-  }
-  
-  .title {
-    opacity: 0.90;
-    color: #59FFDA;
-    font-size: 80.76px;
-    font-family: 'BarLev AAA';
-    font-weight: 400;
-    word-wrap: break-word;
-    padding-right: 12%
-  }
-  
-  .content-container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 53px;
-    width: 70%;
-    padding-right: 10%;
-  }
-  
-  .info-box {
-    width: 200px;
-    height: 100px;
-    padding: 46px 70px 46px 33px;
-    background: rgba(255, 255, 255, 0.10);
-    border-radius: 15px;
-    overflow: hidden;
-    border: 1.09px rgba(255, 255, 255, 0.94) solid;
-    backdrop-filter: blur(40.05px);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 10px;
-  }
-  
-  
-  .info-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 11px;
-     }
-  
-  .badge-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 11px;
-  }
-  
-  .badge {
-    padding: 7.35px 16px;
-    background: #59FFDA;
-    border-radius: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10.50px;
-    color: #171717;
-    font-size: 12px;
-    font-family: 'Almoni Tzar ML v5 AAA';
-    font-weight: 500;
-    line-height: 15.23px;
-    word-wrap: break-word;
-  }
-  
-  .info-text-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 9.45px;
-  }
-  
-  .info-text-title {
-    color: white;
-    font-size: 20px;
-    font-family: 'Almoni Tzar ML v5 AAA';
-    font-weight: 600;
-    line-height: 35.32px;
-    word-wrap: break-word;
-  }
-  .info-description {
-    width: 267.84px;
-    text-align: right;
-    color: white;
-    font-size: 20px;
-    font-family: 'Almoni Tzar ML v5 AAA';
-    font-weight: 300;
-    line-height: 27.11px;
-    word-wrap: break-word;
-  }
-  
-  .info-box:nth-child(2) .info-description,
-  .info-box:nth-child(3) .info-description {
-    width: 283.14px;
-    font-size: 28.61px;
-    font-weight: 300;
-    line-height: 27.46px;
-  }
-  
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* מרכז אנכית */
+  align-items: center; /* מרכז אופקית */
+  gap: calc(15px * 0.75);
+}
+
+.title {
+  opacity: 0.90;
+  color: #59FFDA;
+  font-size: calc(80.76px * 0.75);
+  font-family: 'BarLev AAA';
+  font-weight: 400;
+  word-wrap: break-word;
+padding-left: 58%;}
+
+.info-box {
+  height: calc(160px * 0.75);
+  border-radius: calc(15px * 0.75);
+  border: calc(1.094px * 0.75) solid rgba(255, 255, 255, 0.94);
+  background: rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(calc(20.024534225463867px * 0.75));
+  display: flex;
+  width: calc(400px * 0.75);
+  padding: calc(46px * 0.75) calc(33px * 0.75);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: calc(10px * 0.75);
+}
+
+.content-container {
+  display: flex;
+  align-items: flex-start;
+  gap: calc(47px * 0.75);
+  padding: calc(2% * 0.75);
+}
+
+.info-content {
+  display: flex;
+  align-items: flex-start;
+  gap: calc(41px * 0.75);
+}
+
+.badge-container {
+  border-radius: calc(30px * 0.75);
+  background: var(--01, #59FFDA);
+  display: flex;
+  padding: calc(7.061px * 0.75) calc(24.209px * 0.75);
+  justify-content: flex-end;
+  align-items: baseline;
+  gap: calc(0px * 0.75 - 78.68px * 0.75);
+  flex-wrap: wrap;
+}
+
+.badge {
+  color: #171717;
+  font-family: "Almoni Tzar ML v5 AAA";
+  font-size: calc(16.139px * 0.75);
+  font-style: normal;
+  font-weight: 500;
+  line-height: calc(90.708% * 0.75); /* 14.64px */
+}
+
+.info-text-container {
+  display: flex;
+  padding: calc(0px * 0.75) calc(0.07px * 0.75) calc(0px * 0.75) calc(92px * 0.75);
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.info-text-title {
+  color: var(--white, #FFF);
+  font-family: "Almoni Tzar ML v5 AAA";
+  font-size: calc(28.244px * 0.75);
+  font-style: normal;
+  font-weight: 600;
+  line-height: calc(120.174% * 0.75); /* 33.942px */
+}
+
+.info-description {
+  color: var(--white, #FFF);
+  text-align: right;
+  font-family: "Almoni Tzar ML v5 AAA";
+  font-size: calc(28.244px * 0.75);
+  font-style: normal;
+  font-weight: 300;
+  line-height: calc(96% * 0.75); /* 27.114px */
+  width: calc(267.838px * 0.75);
+  padding-top: 3%;
+}

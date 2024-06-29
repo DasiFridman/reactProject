@@ -30,22 +30,16 @@
   padding-right: 9%;
 }
 .circle-inner{
-  position: absolute;
   z-index: 4;
-  padding-top: 125%;
-  padding-left: 65%;
+  position: absolute;
   animation: rotation 10s infinite linear;
-
-
 }
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.circle-outer{
+  padding-left: 63%;
+  padding-top: 125%;
 }
+
 
 .room-image {
   width: 369px;
@@ -138,7 +132,8 @@
 }
 .room-text{
   position: absolute;
-z-index:4 ;
+  z-index:5 ;
+
 }
 .room-label {
   position: absolute;

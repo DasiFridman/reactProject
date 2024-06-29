@@ -19,7 +19,7 @@
 }
 .information-container {
   position: absolute;
-  top: 260%;
+  top: 230%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 3; /* מעל הרקע והאייקונים המסתובבים */

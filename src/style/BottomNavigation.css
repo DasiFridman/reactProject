@@ -1,5 +1,5 @@
 .bottom-navigation {
-  padding-left: 18%;
+  padding-left: 20%;
     width: 80%;
     display: flex;
     justify-content: flex-start;
@@ -11,7 +11,7 @@
   .navigation-items {
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 77px;
+    gap: 60px;
     display: flex;
     color: white;
     font-size: 20px;

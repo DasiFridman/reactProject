@@ -13,7 +13,7 @@ const Information = () => {
                 </div>
               </div>
               <div className="info-text-container">
-                <div className="info-text-title">עשרות מיקרופונים</div>
+                <div className="info-text-title"> מיקרופונים</div>
                 <div className="icon">
                   <img src="src/assets/icon3.svg" alt="" />
              \
