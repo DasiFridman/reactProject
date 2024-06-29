@@ -57,9 +57,7 @@ export const Form = () => {
                                     </select>
                                 </div>
                             </div>
-                            <div className="detail-box">
-                                <div className="detail-text"><input type="date" className="detail-text" />תאריך</div>
-                            </div>
+                                <input type="date" name="תאריך" className='detail-text'/>
                         </div>
                         <div className="header-subtitle">בחר בשעה הרצויה</div>
                         <div className="time-options">
@@ -73,8 +71,8 @@ export const Form = () => {
                         <div className="separator-bottom"></div>
                     </div>
                     <div className="next-button">
-                        <img src="https://via.placeholder.com/30x30" alt="icon" />
-                        <div className="next-button-text">לשלב הבא</div>
+                    <img src="src/assets/Union.svg" alt="" />
+                    <div className="next-button-text">לשלב הבא</div>
                     </div>
                 </div>
             </div>

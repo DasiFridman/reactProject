@@ -24,11 +24,11 @@
   }
   
   .header {
-    height: 555px;
+    height: 400px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    gap: 25px;
+    gap: 15px;
     display: flex;
   }
   
@@ -117,7 +117,7 @@
     display: inline-flex;
   }
   
-  .detail-box {
+  .detail-box,.detail-text{
     width: 186px;
     height: 34px;
     padding: 2px 9px 2px 18px;
@@ -129,6 +129,8 @@
     color: #D7D7D7;
     font-family: 'Almoni Tzar ML v5 AAA';
     font-size: 28px;
+    background-color: transparent;
+
   }
   
   .detail-select {
@@ -187,6 +189,7 @@
     width: 100%;
     height: 1.37px;
     border: 2px white solid;
+    
   }
   
   .next-button {
@@ -198,6 +201,7 @@
     align-items: center;
     gap: 19px;
     display: inline-flex;
+    margin-top: 20%;
     
   }
   

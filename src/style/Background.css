@@ -60,6 +60,14 @@
   height: 729px; /* ניתן לשנות לפי הצורך */
 }
 
+.gallery-container{
+   position: absolute;
+  top: 298%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 4; /* מעל הרקע והאייקונים המסתובבים */
+
+}
 #body{
   position: absolute;
   top: 380%;
@@ -71,8 +79,8 @@
 }
 .container{
   position: absolute;
-  top: 493%;
-  left: 50%;
+  top: 490%;
+  left: 48%;
   transform: translate(-50%, -50%);
   z-index: 4; /* מעל הרקע והאייקונים המסתובבים */
 
@@ -80,7 +88,7 @@
 }
 .bottom-navigation {
   position: absolute;
-  top: 542%;
+  top: 543%;
   transform: translate(-50%, -50%);
   z-index: 4; /* מעל הרקע והאייקונים המסתובבים */
 }

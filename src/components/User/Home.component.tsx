@@ -6,8 +6,8 @@ const Home = () => {
       <div className="welcome-text">ברוכים הבאים לחדרי הקריוקי הפרועים ביותר של ישראל</div>
       <div className="main-title">shoot THE PLAY</div>
       <div className="order-button">
-        <div className="icon-circle"></div>
-        <div className="arrow"></div>
+      <img src="src/assets/Union.svg" alt="" />
+
         <div className="order-text">להזמנת משחק</div>
       </div>
     </div>

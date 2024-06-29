@@ -11,6 +11,7 @@ import Information from './components/User/Information.component'
 import Contact from './components/User/Contact.component'
 import BottomNavigation from './components/User/BottomNavigation.component'
 import Credit from './components/User/Credit.component'
+import Look from './components/User/Look.component'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Home />
       <Room />
       <Information />
+      <Look />
       <Form />
       <Contact />
       <BottomNavigation />
