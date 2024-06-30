@@ -19,7 +19,7 @@
 }
 .information-container {
   position: absolute;
-  top: 230%;
+  top: 225%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 3; /* מעל הרקע והאייקונים המסתובבים */
@@ -43,7 +43,7 @@
 
 .room-container {
   position: absolute;
-  top: 45%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 3; /* מעל הרקע והאייקונים המסתובבים */
